@@ -12,7 +12,7 @@ html, body {
 }
 
 .container {
-    max-width: 990px;
+    max-width: 61.875rem;
     border-left: 2px solid #EEE;
     border-right: 2px solid #EEE;
 }
@@ -24,9 +24,9 @@ html, body {
 
 .profile-image {
     background-color: #f2f2f2;
-    height: 230px;
+    height: 14.375rem;
     margin-right: 20px;
-    width: 301px;
+    width: 18.813rem;
     flex-shrink: 0;
 }
 
@@ -35,20 +35,20 @@ html, body {
 }
 
 .pi-name {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 200;
     display: flex;
     flex-direction: column;
 }
 
 .pi-name-name {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
 }
 
 .pi-name-surname {
     font-weight: 400;
-    margin-top: -16px;
+    margin-top: -1rem;
 }
 
 .pi-bio {
@@ -62,11 +62,11 @@ html, body {
 }
 
 .main-lateral {
-    width: 301px;
+    width: 18.813rem;
     flex-shrink: 0;
     background-color: #f4f6ed;
     padding: 20px;
-    height: 1100px;
+    height: 68.75rem;
 }
 
 .ml-block:not(:first-of-type) {
@@ -74,7 +74,7 @@ html, body {
 }
 
 .mlb-title {
-    font-size: 21px;
+    font-size: 1.313rem;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -82,28 +82,28 @@ html, body {
 }
 
 .mlb-info {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     margin-bottom: 10px;
     padding-left: 20px;
 }
 
 .mlb-info i {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-right: 10px;
     color: #b6c487;
 }
 
 .mlb-info-fecha {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
     color: #555;
 }
 
 .mlb-subtitle {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #666;
 }
 
@@ -121,7 +121,7 @@ html, body {
 }
 
 .mp-title {
-    font-size: 21px;
+    font-size: 1.313rem;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -136,7 +136,7 @@ html, body {
 }
 
 .mp-laboral .mp-subtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -145,7 +145,7 @@ html, body {
 }
 
 .mp-laboral .mp-date {
-    font-size: 12px;
+    font-size: 0.813rem;
     font-weight: 400;
     color: #888;
     text-transform: uppercase;
