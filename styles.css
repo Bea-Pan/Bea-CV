@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 990px;
+    border-left: 2px solid #EEE;
+    border-right: 2px solid #EEE;
+}
+
+.header {
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.profile-image {
+    background-color: #f2f2f2;
+    height: 230px;
+    margin-right: 20px;
+    width: 301px;
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    height: 100%;
+}
+
+.pi-name {
+    font-size: 40px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+}
+
+.pi-name-name {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.pi-name-surname {
+    font-weight: 400;
+    margin-top: -16px;
+}
+
+.pi-bio {
+    margin-top: 10px;
+    color: #666;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-lateral {
+    width: 301px;
+    flex-shrink: 0;
+    background-color: #f4f6ed;
+    padding: 20px;
+    height: 1100px;
+}
+
+.ml-block:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.mlb-title {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #4c562a;
+}
+
+.mlb-info {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.mlb-info i {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #b6c487;
+}
+
+.mlb-info-fecha {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.mlb-subtitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666;
+}
+
+.mlb-subinfo {
+    color: #444;
+}
+
+.mlb-subtitle i {
+    margin-right: 10px;
+    color: #6a783b;
+}
+
+.main-principal {
+    padding: 20px;
+}
+
+.mp-title {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.mp-title:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.mp-laboral {
+    padding-left: 26px;
+}
+
+.mp-laboral .mp-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mp-laboral .mp-subtitle:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.mp-laboral .mp-date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.mp-laboral .mp-info {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #444;
+}
+
+.mp-proyectos .mlb-subinfo li:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.mp-proyectos .mlb-subinfo:not(:last-of-type) {
+    margin-bottom: 30px;
+}
