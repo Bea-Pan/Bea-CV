@@ -204,6 +204,9 @@ html, body {
     .mlb-title{
         font-size: 0.8rem;
     }
+    .mlb-subtitle{
+        font-size: 0.7rem;
+    }
     .mlb-info{
         font-size: 0.5rem;
         margin-left: -1.5rem;
@@ -264,7 +267,7 @@ html, body {
     .mobile{
         display: block;
         background-color: #f2f2f2;
-       margin-top: -0.9rem;
+       /* margin-top: -0.9rem; */
        padding-top: 1rem;
        padding-left: 1rem;
     }
