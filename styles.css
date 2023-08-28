@@ -94,6 +94,10 @@ html, body {
     color: #b6c487;
 }
 
+.li-divider{
+    display: none;
+}
+
 .mlb-info-fecha {
     font-weight: 500;
     font-size: 0.875rem;
@@ -163,4 +167,112 @@ html, body {
 
 .mp-proyectos .mlb-subinfo:not(:last-of-type) {
     margin-bottom: 30px;
+}
+.mobile{
+    display: none;
+}
+
+/*MEDIA QUERIES*/
+/* MOBILE */
+@media only screen and (max-width:700px){
+    html, body {
+        display: block;
+    }
+    .container{
+        /* max-width: 100%;   */
+    } 
+    .header{
+        background-color: #f2f2f2;
+    }
+    .profile-image img {
+        height: 72%;
+        padding: 0.5rem;
+    }
+    .profile-image{
+        width: 5.5rem;
+        /* margin-right: 0; */
+    }
+    .main-lateral{
+        width: 40%;
+        padding: 0.5rem;
+        height: auto;
+    }
+
+    .main-principal{
+        width: 60%;
+    }
+    .mlb-title{
+        font-size: 0.8rem;
+    }
+    .mlb-info{
+        font-size: 0.5rem;
+        margin-left: -1.5rem;
+    }
+
+    .mlb-subinfo{
+        font-size: 0.6rem;
+        list-style: none;
+        margin-left: -2.5rem;
+        
+    }
+    .li-divider{
+        text-align: center;
+        display: block;
+        margin:0;
+    }
+    .mp-title{
+        font-size: 0.8rem;
+    }
+
+    .pi-name{
+        font-size: 2rem;
+    }
+
+    .pi-name-name{
+        font-size: 1.5rem;
+    }
+    .pi-bio{
+        font-size: 0.8rem;
+        justify-content: stretch;
+    }
+
+    .mp-laboral .mp-subtitle {
+        font-size: 0.7rem;
+        margin-left:-1.7rem;
+    }
+
+    .mp-info {
+        /* font-size: 0.6rem;
+        margin-left:-2.5rem; */
+        
+    }
+
+    .mp-laboral .mp-info {
+        margin-top: 0;
+        font-size: 0.6rem;
+        margin-left:-2.5rem;
+
+    }
+
+    .main-principal {
+        padding: 0.5rem;
+    }
+
+    .edu-exp{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        background-color: #f2f2f2;
+       margin-top: -0.9rem;
+       padding-top: 1rem;
+       padding-left: 1rem;
+    }
+
+    .mp-title:not(:first-of-type) {
+        margin-top: 0; 
+    }
+    .bottom{
+        height: 2rem;
+    }
 }
